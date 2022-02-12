@@ -15,5 +15,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BrawlMatic/BrawlCDN/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }

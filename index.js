@@ -18,6 +18,10 @@ app.get('*', (req, res) => {
   res.status(404).send()
 })
 
+app.post('*', (req, res) => {
+  res.status(404).send()
+})
+
 app.listen(port, () => {
   console.log(`[BrawlCDN] Web server listening at :${port}!`)
 })

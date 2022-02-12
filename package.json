@@ -1,0 +1,19 @@
+{
+  "name": "brawl-cdn",
+  "version": "1.0.0",
+  "description": "Brawl Stars Assets",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrawlMatic/BrawlCDN.git"
+  },
+  "keywords": [
+    "supercell",
+    "brawl stars"
+  ],
+  "author": "BrawlMatic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrawlMatic/BrawlCDN/issues"
+  }
+}

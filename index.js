@@ -15,11 +15,11 @@ app.use((req, res, next) => {
 app.use(express.static('content'))
 
 app.get('*', (req, res) => {
-  res.status(404).send()
+  res.status(404).end()
 })
 
 app.post('*', (req, res) => {
-  res.status(404).send()
+  res.status(404).end()
 })
 
 app.listen(port, () => {
